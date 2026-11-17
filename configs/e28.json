@@ -1,0 +1,23 @@
+{
+ "train_file": "data_work/e28/train_pool.jsonl",
+ "max_examples": null,
+ "seed": 42,
+ "r": 32,
+ "alpha": 64,
+ "dropout": 0.05,
+ "learning_rate": 4e-05,
+ "weight_decay": 0.0,
+ "warmup_ratio": 0.03,
+ "max_grad_norm": 1.0,
+ "micro_batch": 2,
+ "accumulation": 8,
+ "max_length": 8192,
+ "max_updates": 250,
+ "save_at": [
+  250
+ ],
+ "part2_share": 0.339,
+ "gradient_checkpointing": true,
+ "print_every": 10,
+ "schedule_file": "data_work/e28/E27_schedule.json"
+}

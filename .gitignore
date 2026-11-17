@@ -1,0 +1,44 @@
+# Publish only the project's source and curated documentation.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/THIRD_PARTY_NOTICES.md
+!/code/
+!/configs/
+!/docs/
+!/records/
+
+# Historical notes remain local; retain only upstream revision pins.
+/records/*
+!/records/data_revisions.json
+!/records/model_revisions.json
+
+# The historical HTML/PDF report generator embeds an outdated narrative.
+# Current, verified results are maintained in docs/ instead.
+/code/report/
+
+# Never commit caches, credentials, local environments or generated artifacts.
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.zip
+*.webm
+*.mp4
+*.wav
+*.jsonl
+*.jsonl.gz
+node_modules/

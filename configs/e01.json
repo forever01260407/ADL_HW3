@@ -1,0 +1,20 @@
+{
+  "train_file": "data_work/processed/data_v0.jsonl",
+  "max_examples": 56,
+  "seed": 42,
+  "r": 32,
+  "alpha": 64,
+  "dropout": 0.05,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.0,
+  "warmup_ratio": 0.03,
+  "max_grad_norm": 1.0,
+  "micro_batch": 2,
+  "accumulation": 4,
+  "max_length": 4096,
+  "max_updates": 200,
+  "save_at": [50, 100, 200],
+  "part2_share": 0.5,
+  "gradient_checkpointing": true,
+  "print_every": 10
+}

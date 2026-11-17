@@ -1,0 +1,20 @@
+{
+  "train_file": "data_work/frozen/data_v2/train.jsonl",
+  "max_examples": null,
+  "seed": 42,
+  "r": 32,
+  "alpha": 64,
+  "dropout": 0.05,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.0,
+  "warmup_ratio": 0.03,
+  "max_grad_norm": 1.0,
+  "micro_batch": 2,
+  "accumulation": 8,
+  "max_length": 8192,
+  "max_updates": 2250,
+  "save_at": [225, 562, 1125, 1687, 2250],
+  "part2_share": 0.3,
+  "gradient_checkpointing": true,
+  "print_every": 25
+}

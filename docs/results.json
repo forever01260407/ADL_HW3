@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "evaluation": "course-provided public benchmarks; gold-history per-step evaluation",
+  "expected_part1_steps": 13021,
+  "expected_negotiation_steps": 8988,
+  "expected_negotiations": 2607,
+  "submitted_model": "E29",
+  "private_results": "not verified",
+  "runs": {
+    "E02": {
+      "part1_weighted_accuracy": 0.01775119956508379,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "51a93b031401a210339a944147ea28c7364f8663889831551d86623e542c3259",
+      "provenance": "runs/E02/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 0,
+        "order_accuracy": null,
+        "fill_rate": 0.0,
+        "relative_price": null,
+        "text_accuracy": 0.7288135593220338
+      },
+      "negotiation_metrics_sha256": "c8d30772168793e18e66d21ea9018a1d0e4c04acee149ec60e2a3d0be4f8825b"
+    },
+    "E10": {
+      "part1_weighted_accuracy": 0.5996879948944619,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "dde27dacbafffc3756ad711e0053e903b71b5bb70d02de1dfa7ba79aad7725f0",
+      "provenance": "runs/E10/full_1250/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 3430,
+        "order_accuracy": 0.9629737609329446,
+        "fill_rate": 0.759493670886076,
+        "relative_price": 1.0349115359801648,
+        "text_accuracy": 0.996355265681949
+      },
+      "negotiation_metrics_sha256": "d14e92b2fb7e5718cf60aebb4d521ba42296860c22c9b06b58f5c83a1c32bd28"
+    },
+    "E23": {
+      "part1_weighted_accuracy": 0.6053371782447349,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "72f705ad3c1aa0e91354067a3303df6319dd2dd2b0342e813fd439a6e2c414ab",
+      "provenance": "runs/E23/full_1475/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 3727,
+        "order_accuracy": 0.9707539576066542,
+        "fill_rate": 0.919831223628692,
+        "relative_price": 1.0267541999780283,
+        "text_accuracy": 0.9913289349670122
+      },
+      "negotiation_metrics_sha256": "c781a9e500865355a94ccc18773d1ea48fb2a8b366c1dc1831e00210cbb50f2e"
+    },
+    "E27": {
+      "part1_weighted_accuracy": 0.6561089181459333,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "b04adeef51e1e58cfbea79018b6a952d28fc1f354a440f696eccd5677164aac1",
+      "provenance": "runs/E27_session_20261109_165030/final_public/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 3727,
+        "order_accuracy": 0.9758518916018245,
+        "fill_rate": 0.8630609896432682,
+        "relative_price": 1.030282783585931,
+        "text_accuracy": 0.9906861223222602
+      },
+      "negotiation_metrics_sha256": "b7146ba7fe5edb1699e05c8fb0094439c1bf5f5b99718b8be28b4a8036539d74"
+    },
+    "E28": {
+      "part1_weighted_accuracy": 0.6438887181790247,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "fe5a4ea00006bdf89b4ba576f1c26d1b9060d4e7892fb10e10dc8c521b7b9a08",
+      "provenance": "runs/E28_session_20261109_182859/info_public/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 3269,
+        "order_accuracy": 0.9770572040379321,
+        "fill_rate": 0.8527042577675489,
+        "relative_price": 1.0202600707032339,
+        "text_accuracy": 0.9942978168784621
+      },
+      "negotiation_metrics_sha256": "9ed6ae330a322dcea8e54f1bf96e725e500506707ec23e695a10e13462387e76"
+    },
+    "E29": {
+      "part1_weighted_accuracy": 0.6381449878270735,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "3caafb38b7d0ae3dc50415817f1b76b95b18b961e2b2eca8e6e03d498814f1b1",
+      "provenance": "runs/E29_session_20261109_202924/final_public/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 3659,
+        "order_accuracy": 0.9764963104673408,
+        "fill_rate": 0.9064058304564634,
+        "relative_price": 1.0266037415383418,
+        "text_accuracy": 0.9939248601119105
+      },
+      "negotiation_metrics_sha256": "6f67229ef2ff7e99cefa47561afee2108cd9bd1dfa1c1a9a2b3eaa35824b0fca"
+    },
+    "E30_template": {
+      "part1_weighted_accuracy": 0.653532512350202,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "645309e825cd10301c1ddca29c11579ad43694773ddea4a3857a1a062b608711",
+      "provenance": "runs/E30_session_20261109_215120/public/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 2707,
+        "order_accuracy": 0.9822681935722202,
+        "fill_rate": 0.779439969313387,
+        "relative_price": 1.0139393452571022,
+        "text_accuracy": "not computed (no judgments)"
+      },
+      "negotiation_metrics_sha256": "328a07490ef756c3ecdd93aec72d008d4c4e4234669898c419c9685ffbb5f3a1"
+    },
+    "E30_written_policy": {
+      "part1_weighted_accuracy": 0.6529415935897133,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "6ed2f03dea11c64ba66140c747998c9367fa62432b29c95abfb6abce5b1c7511",
+      "provenance": "runs/E30_session_20261109_220121/public/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 2727,
+        "order_accuracy": 0.982031536486982,
+        "fill_rate": 0.7928653624856157,
+        "relative_price": 1.0149915232117594,
+        "text_accuracy": "not computed (no judgments)"
+      },
+      "negotiation_metrics_sha256": "daa805448df07265c81f60e2cb318b594190791184773a52f51f1f22671b3dba"
+    },
+    "E30_late": {
+      "part1_weighted_accuracy": 0.6490178930200676,
+      "part1_steps": 13021,
+      "tools_metrics_sha256": "1fd0623582ba664ae81621006030ad0267217a0b872f0927d382e6dc1ea2382a",
+      "provenance": "runs/E30_session_20261109_230529/public/metrics/tools.json",
+      "negotiation": {
+        "n_negotiations": 2607,
+        "n_steps": 8988,
+        "n_model_orders": 3076,
+        "order_accuracy": 0.9775682704811444,
+        "fill_rate": 0.8431146912159571,
+        "relative_price": 1.0197327298959016,
+        "text_accuracy": "not computed (no judgments)"
+      },
+      "negotiation_metrics_sha256": "ae454995f82f3d8ace91f0c31ce95d08fb2741602545bf77c6278bb483b99417"
+    }
+  },
+  "submission_adapter_sha256": "8e41e9083166b04b128beed3f32390b9620c077146d99850b5ab49a510cbe028",
+  "submission_archive_sha256": "82894fcfc1dacac010e3865f8703ed15d2ac2e2b92eeb2c5995b63fce722ea7e"
+}
